@@ -1,0 +1,30 @@
+     *{
+         margin: 0;
+         padding: 0%;
+     }
+
+     .headH1 
+      {
+        
+        color: blue;
+        background-color:bisque;
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        font-style:italic;
+        height: 190px;
+        text-decoration: underline;
+        opacity:2;
+        line-height: 2;
+      }
+      #two
+      {
+        color: red;
+        background-color: lime;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border: 4px solid orange;
+        width: 150px;
+        height: 50px;
+        border-radius:50px
+      }
+    

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <!-- The tag Meta is use to interact with search engine and act as a certain information of website.-->
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            <!--The meta tag has attribute name and value description, when we search website in google then we will see title-->
+          <meta name="description" content="Hello world">
+      
+          <!--<meta http-equiv="refresh" content="5 ; url = https://www.google.com"> -->
+      
+          <!-- -->
+        <title>
+            Day 3
+        </title>
+        
+    </head>
+    <body>
+        <hr>
+        <label> FORM HERE</label>
+        <hr>
+
+        <br>
+        <br>
+        <br>
+
+        <form action="process.php" method="POST" >
+        
+        <label> First Name : </label>
+        <input type="text" name="firstname"  required placeholder="Enter your first name" minlength="5" maxlength="255" >
+        <br>
+        <br>
+
+        <label> Last Name :</label>
+        <input type="text" name="lastname"  required placeholder="Enter your last name">
+        <br>
+        <br>
+
+        <label> Email :</label>
+        <input type="email" name="email"  required placeholder="Enter your email">
+        <br>
+        <br>
+
+        <label> Password :</label>
+        <input type="password" name="password"  required minlength="8">
+        <br>
+        <br>
+
+        <label> Age :</label>
+        <input type="number" name="age"  min="10" max="40">
+        <br>
+        <br>
+
+        <label> Date of Birth :</label>
+        <input type="date" name="date" placeholder="Enter your date of birth">
+        <br>
+        <br>
+        <label> Gender :</label>
+        <input type="radio" name="gender" value="male"> <label>Male</label>
+        <input type="radio" name="gender" value="female"><label>Female</label>
+        <input type="radio" name="gender" value="Others"><label>Others</label>
+
+
+        <br>
+        <br>
+
+        <input type="submit" name="submit" value="submit">
+
+       </form>
+      
+
+
+    </body>
+</html>
